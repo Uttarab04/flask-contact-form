@@ -4,9 +4,9 @@ This is a Flask-based web application built as part of a Python Developer intern
 
 ## 💡 Features
 
-- 🏠 Home, About, and Contact pages
+- 🏠 Home, About, and Contact pages with responsive navigation
 - 📬 Contact form with input validation
-- 📁 Messages saved to `messages.txt` file
+- 📁 Messages saved to `messages.txt` file using file I/O
 - 🎨 Styled with external CSS using a custom color palette
 - 🔧 Built using Python, Flask, HTML, and CSS
 
@@ -16,6 +16,23 @@ This is a Flask-based web application built as part of a Python Developer intern
 - Flask
 - HTML5
 - CSS3
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Uttarab04/flask-contact-form.git
+   cd flask-contact-form
+2. Install Flask:
+   ```bash
+   pip install flask
+3. Run the app:
+   ```bash
+   python Day8app.py
+4. Visit:
+   http://127.0.0.1:5000/ → Home
+   /contact → Submit form
+
 
 ## 📂 Project Structure
 
